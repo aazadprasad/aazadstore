@@ -1,0 +1,226 @@
+
+
+/*----------------------------------------------------------COMMON CSS---------------------------------------------------------------------*/
+
+footer{
+	position: fixed;
+	padding: 10px 0; 
+	background-color: #101010; 
+	color:#9d9d9d; 
+	bottom: 0; 
+	width: 100%;
+}	
+
+.btn a{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+
+}
+	
+
+.panel-heading{
+	font-size:25px;
+	text-align: center;
+}
+
+.row-style{
+	margin-top:13%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.jumbotron{
+	margin-top: 30px;
+}	
+
+.col-md-3 a:hover{
+	box-shadow: 0 0 10px 5px tan;
+}
+
+.con{
+	margin-left:30%;
+	margin-right:auto;
+}																		
+
+/*------------------------------------------------------------INDEX CSS-------------------------------------------------------------*/
+
+#banner-image{
+
+	
+
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	height: 700px;
+	border: 0px solid red;
+	color: #f8f8f8;
+	text-align: center;
+	background:url("images/intro-bg_1.jpg") no-repeat center; 
+	background-size: cover;
+}
+
+.navbar{
+	margin:0px; 
+}
+#banner_content{
+	
+	
+	position: relative; 
+	padding-top: 6%; 
+	padding-bottom: 6%; 
+	margin-top: 12%; 
+	margin-bottom: 12%; 
+	background-color: rgba(0, 0, 0, 0.7); 
+	max-width: 660px; 
+
+
+}
+
+.btn{
+	font-size:25px;
+}
+.btn:hover{
+	background-color: blue;
+	
+}
+h3 p {
+	text-align: center;
+	text-decoration: none;
+}
+
+.abc a:{
+	box-shadow: 0 0 5px 2px transparent;
+	width: 30%;
+	transition: all 10s;
+	
+
+}
+
+.abc a:hover{
+	
+	box-shadow: 0 0 5px 2px grey;
+
+}
+
+
+.pb{
+	background: #fad5a5;
+}
+@media only screen and (max-width:1200px){
+	#banner-image{
+		height:600px;
+	}
+
+}
+
+@media only screen and (max-width:992px){
+	#banner-image{
+		height:500px;
+	}
+
+}
+
+@media only screen and (max-width:768px){
+	#banner-image{
+		height:400px;
+	}
+
+}
+@media only screen and (max-width:600px){
+	#banner-image{
+		height:300px;
+	}
+
+}
+
+/*--------------------------------------------------------LOGIN CSS-----------------------------------------------------------*/
+
+@media screen and (max-width:600px){
+	.row-style{
+	margin-top:30%;
+	}
+
+}
+
+.col-sm-7{
+	width: 60%;
+}
+
+.mb-3 label{
+	color: blue;
+	font-size:20px;
+}
+
+
+
+		/*---------------------------------------------------------SIGN UP CSS-------------------------------------------------*/
+
+#only4signup{
+	margin-top:5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+/*----------------------------------------------------------PRODUCT PAGE LOGIN CSS--------------------------------------------------*/
+
+.pb2{
+	background: lightgreen;
+}
+
+.col-md-3{
+	background: white;
+	padding: 10px;
+	border-right: 5px solid lightgreen;
+	border-left: 5px solid lightgreen;
+}
+
+.form-group label{
+	font-size: 30px;
+	color: green;
+}
+
+/*----------------------------------------------------------------CART CSS----------------------------------------------------------*/
+
+
+th, td{
+	font-size: 15px;
+}
+table{
+	margin-left:auto;
+	margin-top: 5%;
+}
+
+.ca{
+	background: tan;
+}
+
+a{
+	text-decoration: none;
+}
+
+#remove:hover{
+	background:green;
+	color: white;
+
+}
+
+
+/*--------------------------------------------------------------------SETTING CSS-----------------------------------------------------*/
+
+.se{
+	background: khaki;
+}
+
+/*--------------------------------------------------------------------SUCCESS CSS-----------------------------------------------------*/
+
+
+#only4success{
+	margin-top:20%;
+}
+.s{
+	background:lightblue;
+}
+
